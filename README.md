@@ -31,5 +31,6 @@ Hamid M. Madani,Kiarash M. Dolatshahi
 Strength and stiffness estimation of damaged reinforced concrete shear walls using crack patterns,
 https://doi.org/10.1002/stc.2494
 
-For using the predictive model, make sure to put both provided codes in one folder then run the python code and follow the instruction od the code.
-Python librarie for machine learining and data preprocessing must be installed in your system.
+For using the predictive model, make sure to put both provided codes in one folder, then run the python code and follow the instruction of the code.
+Python libraries for machine learning and data preprocessing must be installed in your environment.
+
