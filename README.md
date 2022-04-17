@@ -1,4 +1,14 @@
 # RCSWs-damage-assessment
+This database is collected in a research group in Sharif University of Tehran. If you use this content please cite following papers
+Hamed Momeni, Kiarash M. Dolatshahi,
+Predictive equations for drift ratio and damage assessment of RC shear walls using surface crack patterns,
+Engineering Structures,
+Volume 190,
+2019,
+Pages 410-421,
+ISSN 0141-0296,
+https://doi.org/10.1016/j.engstruct.2019.04.018.
+
 Sina Mansourdehghan, Kiarash M. Dolatshahi, Amir Hossein Asjodi,
 Data-driven damage assessment of reinforced concrete shear walls using visual features of damage,
 Journal of Building Engineering,
@@ -8,6 +18,18 @@ ISSN 2352-7102,
 https://doi.org/10.1016/j.jobe.2022.104509.
 (https://www.sciencedirect.com/science/article/pii/S2352710222005228)
 
-This paper proposes a damage assessment framework based on the visual features of a damaged reinforced concrete shear wall, such as crack pattern distribution, crushing areal density, aspect ratio, and the presence of the boundary condition. The study contains two parts including: identifying the performance level of the damaged walls (i.e., Immediate Occupancy, Life Safety, and Collapse Prevention) and estimating the residual strength and drift ratio of the walls. The research database contains 236 images of 72 reinforced concrete shear walls tested in the laboratory under the quasi-static cyclic loadings at various drift ratios between 0 to 4%. To identify the performance level of a damaged wall, six supervised learning techniques, including Decision Tree, Random Forest, K_Nearest Neighbor, Gradient Boost, AdaBoost, and Naïve Bayes, are used for classification, and the most efficient method is introduced. Afterward, predictive equations are presented to estimate the residual strength and drift ratio of the walls. The proposed regression equations for drift and reserved capacity are finally used for the estimation of the backbone curve of the hysteretic cyclic loops. In other words, simultaneous employment of both predictive equations for drift ratio and reserved capacity allows for reconstructing the backbone of the cyclic curve just by looking at the progressive damage. The results of the performance level classification show that the Random Forest model is the most efficient method in comparison with other methods with 81.4% accuracy for the test dataset. Predictive equations are also capable of estimating the peak drift ratio and residual strength with an R-factor of 0.9 and 0.83, respectively.
+Amir Hossein Asjodi, Kiarash M. Dolatshahi, Arvin Ebrahimkhanlou,
+Spatial analysis of damage evolution in cyclic-loaded reinforced concrete shear walls,
+Journal of Building Engineering,
+Volume 49,
+2022,
+104032,
+ISSN 2352-7102,
+https://doi.org/10.1016/j.jobe.2022.104032.
 
-Keywords: Health monitoring; Reinforced concrete shear wall; Damage detection; Crack pattern; Machine learning; Symbolic regression
+Hamid M. Madani,Kiarash M. Dolatshahi
+Strength and stiffness estimation of damaged reinforced concrete shear walls using crack patterns,
+https://doi.org/10.1002/stc.2494
+
+For using the predictive model, make sure to put both provided codes in one folder then run the python code and follow the instruction od the code.
+Python librarie for machine learining and data preprocessing must be installed in your system.
